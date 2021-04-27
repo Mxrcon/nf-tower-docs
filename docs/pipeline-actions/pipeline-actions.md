@@ -12,9 +12,7 @@ Tower currently offers support for native **GitHub webhooks** and a general **To
 
 This **Pipeline action** listens for any changes made in the pipeline repository. When a change occurs, Tower triggers the launch of the pipeline in response.
 
-To create a new **Pipeline action**, navigate to the user menu on the top right, select **Pipeline actions** and create a new action.
-
-![](_images/actions_new.png)
+To create a new **Pipeline action**, select the **Actions** tab and create a new action.
 
 
 **1.** Enter a name for your Action.
@@ -47,9 +45,9 @@ To create a new **Pipeline action**, navigate to the user menu on the top right,
 
 A **Tower launch hook** creates a custom endpoint URL which can be used to trigger the execution of your pipeline programmatically from any script web service.
 
-Like above, to create a new **Pipeline action**, navigate to the user menu on the top right, select **Pipeline actions** and create a new action.
+This **Pipeline action** listens for any changes made in the pipeline repository. When a change occurs, Tower triggers the launch of the pipeline in response.
 
-![](_images/actions_new.png)
+To create a new **Pipeline action**, select the **Actions** tab and create a new action.
 
 
 **1.** After naming your pipeline action, select **Tower launch hook** as the event source.
@@ -74,10 +72,9 @@ A **Tower launch hook** has been created at that endpoint that can be used to pr
 !!! tip
     When you create a **Tower launch hook**, you also create an access Token to allow submitting executions to Tower.
 
+**Access Tokens** are accessible on the [tokens page](https://tower.nf/tokens) and can also be accessed from the navigation menu.
+
+
 ![](_images/actions_new_token.png)
 
-
-Access Tokens are accessible on the [tokens page](https://tower.nf/tokens) and can also be accessed from the navigation menu.
-
-![](_images/actions_access_tokens.png)
 

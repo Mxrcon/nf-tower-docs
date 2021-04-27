@@ -7,7 +7,7 @@ description: 'Create and manage teams and resources for an organization.'
 # Overview
 
 !!! note 
-    This feature is only available after version **21.04.0-TODO** of Nextflow Tower.
+    This feature is only available after version **21.05.0** of Nextflow Tower.
 
 Nextflow Tower simplifies the development and execution of workflows by providing a centralized interface to manage people (users and teams) and resources (credentials, compute environments etc) while allowing the users to curate a list of ready to launch workflows at an organizational level. 
 

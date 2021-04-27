@@ -4,9 +4,7 @@ headline: "Private Git repositories"
 description: 'Managing and connecting to Nextflow workflows to private Git repositories using Nextflow Tower.'
 ---
 
-Access to private Git repositories can be managed from the Credentials section, accessible on the right top menu, under **Manage credentials**.
-
-<img src="../_images/git_manage_credentials.png" width="50%"/>
+Access to private Git repositories can be managed from the Credentials section, accessible from the **Credentials** tab.
 
 Tower provides support to connect to private repositories from the popular Git hosting platforms GitHub, GitLab, and BitBucket.
 
@@ -20,7 +18,8 @@ Tower provides support to connect to private repositories from the popular Git h
 
 To connect a private GitHub repository you need to enter a **Name** for the credentials, a **Username** and a **Password** or **Access token**. 
 
-It is recommended to use an access token instead of a using your password. Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using APIs. Step-by-step instructions to create a personal access token can be found [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
+!!! hint 
+    It is recommended to use an **access token** instead of a using your password. Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using APIs. Step-by-step instructions to create a personal access token can be found [here](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token).
 
 
 ## GitLab
