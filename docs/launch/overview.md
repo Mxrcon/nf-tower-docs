@@ -8,12 +8,11 @@ description: 'Guide to launching pipelines using Nextflow Tower.'
     See the [**Compute Environment**](../../compute-envs/overview/) documentation to learn how to create an environment for your preferred executor environment.
 
 
-In the following example we will launch the *nf-core/rnaseq* workflow using a Google Cloud compute environment we have previously set up.
+In the following example we will launch the *nf-core/rnaseq* workflow using a Google Cloud compute environment.
 
 To launch a pipeline:
 
 **1.** Select the **Launch** button in the navigation bar.
-
 
 The **Launch Pipeline** dialog will appear.
 

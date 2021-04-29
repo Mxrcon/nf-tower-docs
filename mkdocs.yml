@@ -84,6 +84,7 @@ nav:
       - 'Google GKE': 'compute-envs/gke.md'
     - 'Launching Pipelines':
       - 'Overview': 'launch/overview.md'
+      - 'Launchpad': 'launch/launchpad.md'
       - 'Advanced': 'launch/advanced.md'
       - 'Re-launch': 'launch/relaunch.md'
       - 'Notifiications': 'launch/notifications.md'
